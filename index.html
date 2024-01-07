@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="main.js" defer></script>
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main>
+      <article class="container-card">
+        <section class="container-result">
+          <h2 class="result-title">Your Result</h2>
+          <div class="total-result">
+            <h2 id="media" class="media">76</h2>
+            <h3 class="total">of 100</h3>
+          </div>
+          <h2 id="felicitacion" class="felicitacion">Great</h2>
+          <p id="mensaje">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+        <section class="container-dates">
+          <h2 class="summary">Summary</h2>
+          <article class="dates">
+            <div class="date category1">
+              <div class="datename">
+                <img id="category1icon" src="" alt="" />
+                <h3 id="category1" class="textcategory1"></h3>
+              </div>
+              <div class="value-date">
+                <h3 id="category1value" class="value"></h3>
+                <h3 class="total">/ 100</h3>
+              </div>
+            </div>
+            <div class="date category2">
+              <div class="datename">
+                <img id="category2icon" src="" alt="Icono Memory" />
+                <h3 id="category2" class="textcategory2"></h3>
+              </div>
+              <div class="value-date">
+                <h3 id="category2value" class="value"></h3>
+                <h3 class="total">/ 100</h3>
+              </div>
+            </div>
+            <div class="date category3">
+              <div class="datename">
+                <img id="category3icon" src="" alt="Icono Verbal" />
+                <h3 id="category3" class="textcategory3"></h3>
+              </div>
+              <div class="value-date">
+                <h3 id="category3value" class="value"></h3>
+                <h3 class="total">/ 100</h3>
+              </div>
+            </div>
+            <div class="date category4">
+              <div class="datename">
+                <img id="category4icon" src="" alt="Icono Visual" />
+                <h3 id="category4" class="textcategory4"></h3>
+              </div>
+              <div class="value-date">
+                <h3 id="category4value" class="value"></h3>
+                <h3 class="total">/ 100</h3>
+              </div>
+            </div>
+          </article>
+          <button id="calcular">Continue</button>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
